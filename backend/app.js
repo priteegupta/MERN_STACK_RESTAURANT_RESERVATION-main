@@ -10,7 +10,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ Make sure it matches frontend URL
+    origin: "https://mern-stack-restaurant-reservation-gl52.onrender.com", // ✅ Make sure it matches frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
